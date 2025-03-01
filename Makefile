@@ -4,7 +4,7 @@ NAME = so_long
 B_NAME = so_long_bonus
 LIBS = -L/usr/include/minilibx-linux -lmlx -lX11 -lXext
 
-SRC = get_next_line.c get_next_line_utils.c main.c bfs.c bfs_utils.c is_valid.c mlx_part.c moves.c init.c
+SRC = mandatory/get_next_line.c mandatory/get_next_line_utils.c mandatory/main.c mandatory/bfs.c mandatory/bfs_utils.c mandatory/is_valid.c mandatory/mlx_part.c mandatory/moves.c mandatory/init.c
 OBJ = $(SRC:.c=.o)
 
 BONUS_SRC = bonus/main_bonus.c bonus/bfs_bonus.c bonus/bfs_utils_bonus.c bonus/is_valid_bonus.c \
